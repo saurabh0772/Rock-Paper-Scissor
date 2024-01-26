@@ -23,6 +23,10 @@ const playGame = (userChoice) => {
         console.log("Draw");
         msg.innerText = `MATCH DRAW !!! `;
         msg.style.backgroundColor = "black";
+         userScore++;
+        compScore++;
+        user.innerText = userScore;
+        comp.innerText = compScore;
 
     }else{
         let userWin = true;
