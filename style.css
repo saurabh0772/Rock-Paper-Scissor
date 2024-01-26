@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+body{
+    background-color: rgba(187, 255, 229, 0.64);
+}
+#head {
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    font-size: 50px;
+    
+}
+.choice {
+    height: 200px;
+    width: 200px;
+    
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    margin-top: 80px;
+    border-radius: 50%;
+}
+img:hover{
+    opacity: 0.85;
+    height: 201px;
+    width: 201px;
+    cursor: pointer;
+}
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+p{
+    font-size: 30px;
+}
+#score-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+    gap: 30px;
+}
+#msg{
+    margin-top: 70px;
+}
+.message {
+  background-color: black;
+  display: inline;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+  
+}
+.message:hover{
+    opacity: 0.75;
+    cursor: pointer;
+}
+.user, .comp{
+    font-size: 80px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    height: 35px;
+    margin-top: 150px;
+}
+h6 {
+    line-height: 35px;
+    font-size: 15px;
+}
+
